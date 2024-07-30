@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { SearchIcon } from "../../icons/SearchIcon";
 import { Button } from "../button/Button";
+import { Input } from "../input/Input";
 import { ISearchProps } from "./ISearchProps";
 import styles from "./Search.module.scss";
 
@@ -20,7 +21,7 @@ export const Search: React.FC<ISearchProps> = (props) => {
 
   return (
     <div className={styles.search}>
-      <input
+      <Input
         className={styles.input}
         onChange={onChange}
         onKeyDown={onEnter}

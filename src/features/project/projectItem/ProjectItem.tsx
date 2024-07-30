@@ -17,6 +17,7 @@ export const ProjectItem: React.FC<IProjectItemProps> = (props) => {
         <h3>{props.project.title}</h3>
       </div>
       {props.project.summary}
+
       <div className={styles.footer}>
         <CalendarIcon />
         {DateTime.toDate(props.project.timeInterval.from)}

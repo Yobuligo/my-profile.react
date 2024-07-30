@@ -4,19 +4,27 @@
   display: flex;
   flex-direction: column;
   row-gap: $negative-space;
+  padding: 1rem;
   &:hover {
     cursor: pointer;
   }
 }
 
 .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin: 0;
 }
 
+.image{
+  width: 5rem;
+  height: 5rem;
+}
+
 .roleList {
-  margin-top: 1rem;
   margin-right: 2rem;
-  transform: translateX(-$negative-space);
+  transform: translateX(-1rem);
 }
 
 .footer {
