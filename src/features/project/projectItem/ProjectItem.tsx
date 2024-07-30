@@ -36,7 +36,7 @@ export const ProjectItem: React.FC<IProjectItemProps> = (props) => {
         </div>
         <div className={styles.date}>
           <CalendarIcon />
-          {DateTime.toDate(props.project.timeInterval.from)}
+          {DateTime.toYear(props.project.timeInterval.from)}
         </div>
       </div>
     </Card>
