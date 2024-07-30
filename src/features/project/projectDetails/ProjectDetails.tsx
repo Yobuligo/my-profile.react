@@ -28,7 +28,7 @@ export const ProjectDetails: React.FC<IProjectDetailsProps> = (props) => {
     <div className={styles.projectDetails}>
       <ArrowBackIcon className={styles.iconBack} onClick={viewModel.onBack} />
       {isLoading && <Spinner />}
-      {markdown && <Markdown>{markdown}</Markdown>}
+      {markdown && <Markdown className={styles.markdown}>{markdown}</Markdown>}
     </div>
   );
 };
