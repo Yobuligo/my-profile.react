@@ -13,3 +13,11 @@
 .markdown {
   color: $color-text-dark;
 }
+
+.markdown img {
+  width: 20rem;
+
+  @include medium-screen {
+    width: auto;
+  }
+}

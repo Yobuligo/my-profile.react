@@ -4,6 +4,9 @@
         "portfolio": "Portfolio",
         "projects": " Projects"
     },
+    "projectDetails": {
+        "noDocumentFound": "No documentation found"
+    },
     "projectItem": {
         "technologies": "Technologies"
     },
