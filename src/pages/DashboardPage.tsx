@@ -1,5 +1,6 @@
 import { ITabItem } from "../components/tabStrip/ITabItem";
 import { TabStrip } from "../components/tabStrip/TabStrip";
+import { ProjectSection } from "../features/project/projectSection/ProjectSection";
 import { texts } from "../hooks/useTranslation/texts";
 import { useTranslation } from "../hooks/useTranslation/useTranslation";
 
@@ -12,7 +13,7 @@ export const DashboardPage: React.FC = () => {
       title: t(texts.dashboardPage.cv),
     },
     {
-      content: <>Projects</>,
+      content: <ProjectSection />,
       title: t(texts.dashboardPage.projects),
     },
     {
