@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
+import { IHaveClassName } from "../../core/types/IHaveClassName";
 
-export interface ICardProps {
+export interface ICardProps extends IHaveClassName {
   children?: ReactNode;
-  className?: string;
   onClick?: () => void;
 }

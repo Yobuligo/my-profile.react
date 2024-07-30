@@ -12,7 +12,7 @@ export const ProjectItem: React.FC<IProjectItemProps> = (props) => {
       className={style(styles.projectItem, props.className)}
       onClick={props.onSelect}
     >
-      <RoleList roles={props.project.roles} />
+      <RoleList className={styles.roleList} roles={props.project.roles} />
       <div className={styles.header}>
         <h3>{props.project.title}</h3>
       </div>

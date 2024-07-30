@@ -13,6 +13,12 @@
   margin: 0;
 }
 
+.roleList {
+  margin-top: 1rem;
+  margin-right: 2rem;
+  transform: translateX(-$negative-space);
+}
+
 .footer {
   display: flex;
   flex-direction: row;
