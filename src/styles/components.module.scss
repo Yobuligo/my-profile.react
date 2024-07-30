@@ -2,8 +2,8 @@
 @import "./mixins.scss";
 
 .icon {
-  @include hover-icon;  
-  fill: $color-primary-dark;
+  @include hover-icon;
+  fill: $color-primary-light;
 }
 
 .iconDisabled {

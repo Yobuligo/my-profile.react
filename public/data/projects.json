@@ -4,6 +4,9 @@
     "roles": [
       "JUNIOR_DEVELOPER"
     ],
+    "technologies": [
+      "TURBO_PASCAL"
+    ],
     "timeInterval": {
       "from": "1999-07-30T08:07:50.031Z",
       "to": "1999-07-30T08:07:50.031Z"
@@ -15,6 +18,9 @@
     "id": "2",
     "roles": [
       "JUNIOR_DEVELOPER"
+    ],
+    "technologies": [
+      "TURBO_PASCAL"
     ],
     "timeInterval": {
       "from": "2000-07-30T08:07:50.031Z",
@@ -28,6 +34,7 @@
     "roles": [
       "DEVELOPER"
     ],
+    "technologies": [],
     "timeInterval": {
       "from": "2024-07-30T08:07:50.031Z",
       "to": "2024-07-30T08:07:50.031Z"
@@ -40,6 +47,7 @@
     "roles": [
       "SENIOR_DEVELOPER"
     ],
+    "technologies": [],
     "timeInterval": {
       "from": "2024-07-30T08:07:50.031Z",
       "to": "2024-07-30T08:07:50.031Z"
@@ -52,6 +60,7 @@
     "roles": [
       "LEAD_DEVELOPER"
     ],
+    "technologies": [],
     "timeInterval": {
       "from": "2024-07-30T08:07:50.031Z",
       "to": "2024-07-30T08:07:50.031Z"
@@ -65,11 +74,26 @@
       "SOFTWARE_ARCHITECT",
       "LEAD_DEVELOPER"
     ],
+    "technologies": [],
     "timeInterval": {
       "from": "2024-07-30T08:07:50.031Z",
       "to": "2024-07-30T08:07:50.031Z"
     },
     "title": "Hello World Title 6",
     "summary": "Hello World Summary 6"
+  },
+  {
+    "id": "7",
+    "roles": [
+      "SOFTWARE_ARCHITECT",
+      "LEAD_DEVELOPER"
+    ],
+    "technologies": [],
+    "timeInterval": {
+      "from": "2024-07-30T08:07:50.031Z",
+      "to": "2024-07-30T08:07:50.031Z"
+    },
+    "title": "Software Download Portal",
+    "summary": "Implementation and release of a web-based self-service portal for customers to download project-specific software"
   }
 ]
