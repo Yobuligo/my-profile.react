@@ -1,7 +1,10 @@
 {
     "dashboardPage": {
         "career": "Career",
-        "portfolio":"Portfolio",
-        "projects":" Projects"
+        "portfolio": "Portfolio",
+        "projects": " Projects"
+    },
+    "projectList": {
+        "noProjectsFound": "No suitable projects found"
     }
 }

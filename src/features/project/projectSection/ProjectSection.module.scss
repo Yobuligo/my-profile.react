@@ -1,0 +1,13 @@
+@import "../../../styles/dimensions.scss";
+
+.projectList {
+  display: flex;
+  flex-direction: column;
+  row-gap: $negative-space;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
