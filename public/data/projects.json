@@ -1,6 +1,7 @@
 [
   {
     "id": "1",
+    "role": "Software Architect",
     "timeInterval": {
       "from": "2024-07-30T08:07:50.031Z",
       "to": "2024-07-30T08:07:50.031Z"
@@ -10,6 +11,7 @@
   },
   {
     "id": "2",
+    "role": "Lead Developer",
     "timeInterval": {
       "from": "2024-07-30T08:07:50.031Z",
       "to": "2024-07-30T08:07:50.031Z"
@@ -19,6 +21,7 @@
   },
   {
     "id": "3",
+    "role": "Senior Developer",
     "timeInterval": {
       "from": "2024-07-30T08:07:50.031Z",
       "to": "2024-07-30T08:07:50.031Z"
@@ -28,6 +31,7 @@
   },
   {
     "id": "4",
+    "role": "Junior Developer",
     "timeInterval": {
       "from": "2024-07-30T08:07:50.031Z",
       "to": "2024-07-30T08:07:50.031Z"

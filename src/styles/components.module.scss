@@ -2,10 +2,10 @@
 @import "./mixins.scss";
 
 .icon {
-  @include hover-icon;
+  @include hover-icon;  
   fill: $color-primary-dark;
 }
 
-.disabledIcon {
+.iconDisabled {
   fill: $color-disabled;
 }

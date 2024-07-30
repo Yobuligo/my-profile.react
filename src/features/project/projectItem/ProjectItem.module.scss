@@ -3,6 +3,9 @@
 .projectItem {
   display: flex;
   flex-direction: column;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .header {

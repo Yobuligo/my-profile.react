@@ -5,6 +5,9 @@ import { IProject } from "../../../model/IProject";
 export const useProjectSectionViewModel = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [projects, setProjects] = useState<IProject[]>([]);
+  const [selectedProject, setSelectedProject] = useState<IProject | undefined>(
+    undefined
+  );
 
   const loadProjects = async () => {
     setIsLoading(true);
@@ -18,8 +21,15 @@ export const useProjectSectionViewModel = () => {
     loadProjects();
   }, []);
 
+  const onBack = () => setSelectedProject(undefined);
+
+  const onSelectProject = (project: IProject) => setSelectedProject(project);
+
   return {
     isLoading,
+    onBack,
+    onSelectProject,
     projects,
+    selectedProject,
   };
 };

@@ -6,7 +6,8 @@ import styles from "./ProjectItem.module.scss";
 
 export const ProjectItem: React.FC<IProjectItemProps> = (props) => {
   return (
-    <Card className={styles.projectItem}>
+    <Card className={styles.projectItem} onClick={props.onSelect}>
+      <div>{props.project.role}</div>
       <div className={styles.header}>
         <h3>{props.project.title}</h3>
       </div>
