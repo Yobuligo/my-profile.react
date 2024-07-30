@@ -10,6 +10,7 @@ export interface IProject extends IEntity {
   technologies: Technology[];
   timeInterval: ITimeInterval;
   title: string;
+  url: string;
 }
 
 export const ProjectMeta: IHavePath = { path: "/projects" };

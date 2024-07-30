@@ -1,10 +1,14 @@
 import { IError } from "../../core/types/IError";
 import { createError } from "../../core/utils/createError";
 import { isError } from "../../core/utils/isError";
+import { ResponseType } from "./ResponseType";
 
 export abstract class RESTApi {
-  protected delete<T>(url: string): Promise<T> {
-    return this.createPromise(url, async () => {
+  protected delete<T>(
+    url: string,
+    responseType: ResponseType = ResponseType.JSON
+  ): Promise<T> {
+    return this.createPromise(url, responseType, async () => {
       return await fetch(url, {
         headers: {
           "Content-Type": "application/json",
@@ -15,16 +19,23 @@ export abstract class RESTApi {
     });
   }
 
-  protected get<T>(url: string): Promise<T> {
-    return this.createPromise(url, async () => {
+  protected get<T>(
+    url: string,
+    responseType: ResponseType = ResponseType.JSON
+  ): Promise<T> {
+    return this.createPromise(url, responseType, async () => {
       return await fetch(url, {
         method: "GET",
       });
     });
   }
 
-  protected put<T>(url: string, data: any): Promise<T> {
-    return this.createPromise(url, async () => {
+  protected put<T>(
+    url: string,
+    data: any,
+    responseType: ResponseType = ResponseType.JSON
+  ): Promise<T> {
+    return this.createPromise(url, responseType, async () => {
       const body = JSON.stringify(data);
       return await fetch(url, {
         body: body,
@@ -37,8 +48,12 @@ export abstract class RESTApi {
     });
   }
 
-  protected post<T>(url: string, data: any): Promise<T> {
-    return this.createPromise(url, async () => {
+  protected post<T>(
+    url: string,
+    data: any,
+    responseType: ResponseType = ResponseType.JSON
+  ): Promise<T> {
+    return this.createPromise(url, responseType, async () => {
       const body = JSON.stringify(data);
       return await fetch(url, {
         body: body,
@@ -53,6 +68,7 @@ export abstract class RESTApi {
 
   private async createPromise<T>(
     url: string,
+    responseType: ResponseType,
     request: (
       resolve: (value: T | PromiseLike<T>) => void,
       reject: (reason?: any) => void
@@ -62,10 +78,20 @@ export abstract class RESTApi {
       try {
         const response = await request(resolve, reject);
         if (response.ok) {
-          const data = await response.json();
+          let data;
+          if (responseType === ResponseType.JSON) {
+            data = await response.json();
+          } else {
+            data = await response.text();
+          }
           resolve(data);
         } else {
-          const data = await response.json();
+          let data;
+          if (responseType === ResponseType.JSON) {
+            data = await response.json();
+          } else {
+            data = await response.text();
+          }
           if (isError(data)) {
             reject(data);
           } else {
