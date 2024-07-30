@@ -1,4 +1,5 @@
 @import "../../styles/colors.module.scss";
+@import '../../styles/mixins.scss';
 
 .header {
   display: flex;
@@ -12,5 +13,9 @@
 }
 
 .body {
-  padding: 2rem;
+  padding: 1rem;
+
+  @include medium-screen {
+    padding: 2rem;
+  }
 }

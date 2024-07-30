@@ -3,6 +3,7 @@
 .projectItem {
   display: flex;
   flex-direction: column;
+  row-gap: $negative-space;
   &:hover {
     cursor: pointer;
   }
