@@ -13,6 +13,16 @@ import styles from "./ProjectItem.module.scss";
 export const ProjectItem: React.FC<IProjectItemProps> = (props) => {
   const { t } = useTranslation();
 
+  const getYear = () => {
+    const fromYear = DateTime.toYear(props.project.timeInterval.from);
+    const toYear = DateTime.toYear(props.project.timeInterval.to);
+    if (fromYear !== toYear) {
+      return `${fromYear} - ${toYear}`;
+    } else {
+      return toYear;
+    }
+  };
+
   return (
     <Card
       className={style(styles.projectItem, props.className)}
@@ -36,7 +46,7 @@ export const ProjectItem: React.FC<IProjectItemProps> = (props) => {
         </div>
         <div className={styles.date}>
           <CalendarIcon />
-          {DateTime.toYear(props.project.timeInterval.from)}
+          {getYear()}
         </div>
       </div>
     </Card>

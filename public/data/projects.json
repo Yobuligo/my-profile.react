@@ -34,68 +34,242 @@
   {
     "id": "3",
     "roles": [
-      "DEVELOPER"
+      "JUNIOR_DEVELOPER"
     ],
-    "technologies": [],
+    "technologies": [
+      "FULLSTACK",
+      "TURBO_PASCAL"
+    ],
     "timeInterval": {
-      "from": "2024-07-30T08:07:50.031Z",
-      "to": "2024-07-30T08:07:50.031Z"
+      "from": "2000-07-30T08:07:50.031Z",
+      "to": "2000-07-30T08:07:50.031Z"
     },
-    "title": "Hello World Title 3",
-    "summary": "Hello World Summary 3"
+    "title": "Farmer",
+    "summary": "Successor to the game Cowboy. Economic game in which as much money as possible had to be earned within 60 rounds"
   },
   {
     "id": "4",
     "roles": [
-      "SENIOR_DEVELOPER"
+      "JUNIOR_DEVELOPER"
     ],
-    "technologies": [],
+    "technologies": [
+      "FULLSTACK",
+      "TURBO_PASCAL"
+    ],
     "timeInterval": {
-      "from": "2024-07-30T08:07:50.031Z",
-      "to": "2024-07-30T08:07:50.031Z"
+      "from": "2000-07-30T08:07:50.031Z",
+      "to": "2000-07-30T08:07:50.031Z"
     },
-    "title": "Hello World Title 4",
-    "summary": "Hello World Summary 4"
+    "title": "Labyrinth",
+    "summary": "Pacman-like quiz game with its own level editor, a help feature, 200 manually entered questions from a Mickey Mouse quiz"
   },
   {
     "id": "5",
     "roles": [
-      "LEAD_DEVELOPER"
+      "JUNIOR_DEVELOPER"
     ],
-    "technologies": [],
+    "technologies": [
+      "FULLSTACK",
+      "TURBO_PASCAL"
+    ],
     "timeInterval": {
-      "from": "2024-07-30T08:07:50.031Z",
-      "to": "2024-07-30T08:07:50.031Z"
+      "from": "2004-07-30T08:07:50.031Z",
+      "to": "2004-07-30T08:07:50.031Z"
     },
-    "title": "Hello World Title 5",
-    "summary": "Hello World Summary 5"
+    "title": "Address Book",
+    "summary": "Manage and update your own addresses. Birthday reminders when starting the application for the first time each day."
   },
   {
     "id": "6",
     "roles": [
-      "SOFTWARE_ARCHITECT",
-      "LEAD_DEVELOPER"
+      "JUNIOR_DEVELOPER"
     ],
-    "technologies": [],
+    "technologies": [
+      "CSS",
+      "FULLSTACK",
+      "HTML"
+    ],
     "timeInterval": {
-      "from": "2024-07-30T08:07:50.031Z",
-      "to": "2024-07-30T08:07:50.031Z"
+      "from": "2004-07-30T08:07:50.031Z",
+      "to": "2004-07-30T08:07:50.031Z"
     },
-    "title": "Hello World Title 6",
-    "summary": "Hello World Summary 6"
+    "title": "Homepage Metalldesign & Poliershop",
+    "summary": "Implementation and administration of a homepage for a metal processing company."
   },
   {
     "id": "7",
     "roles": [
-      "SOFTWARE_ARCHITECT",
-      "LEAD_DEVELOPER"
+      "JUNIOR_DEVELOPER"
     ],
-    "technologies": [],
+    "technologies": [
+      "ABAP",
+      "CSS",
+      "EXTJS",
+      "FULLSTACK",
+      "HTML",
+      "JAVASCRIPT",
+      "OPEN_SQL",
+      "RFC"
+    ],
     "timeInterval": {
-      "from": "2024-07-30T08:07:50.031Z",
-      "to": "2024-07-30T08:07:50.031Z"
+      "from": "2009-07-30T08:07:50.031Z",
+      "to": "2011-07-30T08:07:50.031Z"
     },
-    "title": "Software Download Portal",
-    "summary": "Implementation and release of a web-based self-service portal for customers to download project-specific software"
+    "title": "T-Bone Project Cockpit",
+    "summary": "Implementation of a web-based application for planning, executing, and monitoring migration projects."
+  },
+  {
+    "id": "8",
+    "roles": [
+      "DEVELOPER"
+    ],
+    "technologies": [
+      "ABAP",
+      "CSS",
+      "EXTJS",
+      "FULLSTACK",
+      "HTML",
+      "JAVASCRIPT",
+      "OPEN_SQL",
+      "RFC"
+    ],
+    "timeInterval": {
+      "from": "2011-07-30T08:07:50.031Z",
+      "to": "2014-07-30T08:07:50.031Z"
+    },
+    "title": "T-Bone Transformation Cockpit",
+    "summary": "Implementation of a web-based cockpit for the configuration, execution, control, and monitoring of data transformations."
+  },
+  {
+    "id": "9",
+    "roles": [
+      "SENIOR_DEVELOPER"
+    ],
+    "technologies": [
+      "ABAP",
+      "ABAP_REFLECTION"
+    ],
+    "timeInterval": {
+      "from": "2015-07-30T08:07:50.031Z",
+      "to": "2015-07-30T08:07:50.031Z"
+    },
+    "title": "Unittest Generator",
+    "summary": "Implementation of a unit test generator to enhance code quality in projects."
+  },
+  {
+    "id": "10",
+    "roles": [
+      "SENIOR_DEVELOPER"
+    ],
+    "technologies": [
+      "ABAP",
+      "ABAP_REFLECTION"
+    ],
+    "timeInterval": {
+      "from": "2015-07-30T08:07:50.031Z",
+      "to": "2015-07-30T08:07:50.031Z"
+    },
+    "title": "Meta API (Reflection)",
+    "summary": "Implementation of a reflection API for centralized access to language-specific constructs in ABAP."
+  },
+  {
+    "id": "11",
+    "roles": [
+      "SENIOR_DEVELOPER"
+    ],
+    "technologies": [
+      "ABAP",
+      "ABAP_REFLECTION",
+      "HTML"
+    ],
+    "timeInterval": {
+      "from": "2015-07-30T08:07:50.031Z",
+      "to": "2015-07-30T08:07:50.031Z"
+    },
+    "title": "Code Documentation Generator",
+    "summary": "Implementation of a generator for creating code documentation based on a development project to improve onboarding for new developers."
+  },
+  {
+    "id": "12",
+    "roles": [
+      "SENIOR_DEVELOPER"
+    ],
+    "technologies": [
+      "ABAP",
+      "ABAP_REFLECTION",
+      "OPEN_SQL",
+      "SAP_DYNPRO"
+    ],
+    "timeInterval": {
+      "from": "2016-07-30T08:07:50.031Z",
+      "to": "2017-07-30T08:07:50.031Z"
+    },
+    "title": "Short dump API",
+    "summary": "Implementation of a remote API for reading, transferring, and displaying SAP short dumps."
+  },
+  {
+    "id": "13",
+    "roles": [
+      "SENIOR_DEVELOPER"
+    ],
+    "technologies": [
+      "ABAP",
+      "ABAP_REFLECTION",
+      "OPEN_SQL",
+      "RFC",
+      "SAP_DYNPRO",
+      "SAP_JOBS"
+    ],
+    "timeInterval": {
+      "from": "2016-07-30T08:07:50.031Z",
+      "to": "2017-07-30T08:07:50.031Z"
+    },
+    "title": "Parallelized Work Package Processor API",
+    "summary": "Implementation of a remote API for parallelized processing of work packages based on SAP jobs."
+  },
+  {
+    "id": "14",
+    "roles": [
+      "SENIOR_DEVELOPER"
+    ],
+    "technologies": [
+      "ABAP",
+      "ABAP_REFLECTION",
+      "CSS",
+      "DB_TRIGGER",
+      "EXTJS",
+      "FULLSTACK",
+      "HTML",
+      "JAVASCRIPT",
+      "OPEN_SQL"
+    ],
+    "timeInterval": {
+      "from": "2016-07-30T08:07:50.031Z",
+      "to": "2017-07-30T08:07:50.031Z"
+    },
+    "title": "Near Zero Downtime",
+    "summary": "Implementation of a database change logging system based on DB triggers to minimize system downtime to nearly zero after a migration."
+  },
+  {
+    "id": "15",
+    "roles": [
+      "SOFTWARE_ARCHITECT"
+    ],
+    "technologies": [
+      "ABAP",
+      "ABAP_REFLECTION",
+      "FULLSTACK",
+      "HTML",
+      "JAVASCRIPT",
+      "ODATA",
+      "OPEN_SQL",
+      "SAP_DYNPRO"
+    ],
+    "timeInterval": {
+      "from": "2017-07-30T08:07:50.031Z",
+      "to": "2022-07-30T08:07:50.031Z"
+    },
+    "title": "LTMOM Migration Object Modeller",
+    "summary": "Implementation of a multi-user application for modeling migration content as a basis for data migration."
   }
 ]
