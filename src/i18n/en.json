@@ -6,5 +6,12 @@
     },
     "projectList": {
         "noProjectsFound": "No suitable projects found"
+    },
+    "role": {
+        "softwareArchitect": "Software Architect",
+        "leadDeveloper": "Lead Developer",
+        "seniorDeveloper": "Senior Developer",
+        "developer": "Developer",
+        "juniorDeveloper": "Junior Developer"
     }
 }

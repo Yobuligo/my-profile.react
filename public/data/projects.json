@@ -1,27 +1,33 @@
 [
   {
     "id": "1",
-    "role": "Software Architect",
+    "roles": [
+      "JUNIOR_DEVELOPER"
+    ],
     "timeInterval": {
-      "from": "2024-07-30T08:07:50.031Z",
-      "to": "2024-07-30T08:07:50.031Z"
+      "from": "1999-07-30T08:07:50.031Z",
+      "to": "1999-07-30T08:07:50.031Z"
     },
-    "title": "Hello World Title",
-    "summary": "Hello World Summary"
+    "title": "Cowboy",
+    "summary": "Economic game in which as much money as possible had to be earned within 60 rounds"
   },
   {
     "id": "2",
-    "role": "Lead Developer",
+    "roles": [
+      "JUNIOR_DEVELOPER"
+    ],
     "timeInterval": {
-      "from": "2024-07-30T08:07:50.031Z",
-      "to": "2024-07-30T08:07:50.031Z"
+      "from": "2000-07-30T08:07:50.031Z",
+      "to": "2000-07-30T08:07:50.031Z"
     },
-    "title": "Hello World Title 2",
-    "summary": "Hello World Summary 2"
+    "title": "Bingo",
+    "summary": "Bingo game with its own display (custom font for numbers), bingo cards could be printed."
   },
   {
     "id": "3",
-    "role": "Senior Developer",
+    "roles": [
+      "DEVELOPER"
+    ],
     "timeInterval": {
       "from": "2024-07-30T08:07:50.031Z",
       "to": "2024-07-30T08:07:50.031Z"
@@ -31,12 +37,39 @@
   },
   {
     "id": "4",
-    "role": "Junior Developer",
+    "roles": [
+      "SENIOR_DEVELOPER"
+    ],
     "timeInterval": {
       "from": "2024-07-30T08:07:50.031Z",
       "to": "2024-07-30T08:07:50.031Z"
     },
     "title": "Hello World Title 4",
     "summary": "Hello World Summary 4"
+  },
+  {
+    "id": "5",
+    "roles": [
+      "LEAD_DEVELOPER"
+    ],
+    "timeInterval": {
+      "from": "2024-07-30T08:07:50.031Z",
+      "to": "2024-07-30T08:07:50.031Z"
+    },
+    "title": "Hello World Title 5",
+    "summary": "Hello World Summary 5"
+  },
+  {
+    "id": "6",
+    "roles": [
+      "SOFTWARE_ARCHITECT",
+      "LEAD_DEVELOPER"
+    ],
+    "timeInterval": {
+      "from": "2024-07-30T08:07:50.031Z",
+      "to": "2024-07-30T08:07:50.031Z"
+    },
+    "title": "Hello World Title 6",
+    "summary": "Hello World Summary 6"
   }
 ]

@@ -1,0 +1,25 @@
+@import "../../../styles/colors.module.scss";
+
+.roleItem {
+  color: white;
+}
+
+.softwareArchitect {
+  background-color: $color-role-software-architect;
+}
+
+.leadDeveloper {
+  background-color: $color-role-lead-developer;
+}
+
+.seniorDeveloper {
+  background-color: $color-role-senior-developer;
+}
+
+.developer {
+  background-color: $color-role-developer;
+}
+
+.juniorDeveloper {
+  background-color: $color-role-junior-developer;
+}
