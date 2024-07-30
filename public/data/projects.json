@@ -14,7 +14,7 @@
     },
     "title": "Cowboy",
     "summary": "Economic game in which as much money as possible had to be earned within 60 rounds",
-    "url": "/assets/documents/cowboy.md"
+    "url": "/assets/documents/document_01.md"
   },
   {
     "id": "2",
@@ -31,7 +31,7 @@
     },
     "title": "Bingo",
     "summary": "Bingo game with its own display (custom font for numbers), bingo cards could be printed.",
-    "url": "/assets/documents/bingo.md"
+    "url": "/assets/documents/document_02.md"
   },
   {
     "id": "3",

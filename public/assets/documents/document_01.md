@@ -1,15 +1,15 @@
-# Cowboy
+### <title>
 
-## Summary
+#### Summary
 
 Economic game in which as much money as possible had to be earned within 60 rounds.
 
-## Goals
+#### Goals
 
-## Tasks
+#### Tasks
 
 - Implementation
 
-## Technologies
+#### Technologies
 
 Turbo Pascal
