@@ -1,0 +1,17 @@
+@import "../../../styles/dimensions.scss";
+
+.projectItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  margin: 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  column-gap: $negative-space;
+}

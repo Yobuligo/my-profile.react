@@ -1,5 +1,6 @@
 import { ITabItem } from "../components/tabStrip/ITabItem";
 import { TabStrip } from "../components/tabStrip/TabStrip";
+import { CareerSection } from "../features/career/CareerSection";
 import { ProjectSection } from "../features/project/projectSection/ProjectSection";
 import { texts } from "../hooks/useTranslation/texts";
 import { useTranslation } from "../hooks/useTranslation/useTranslation";
@@ -9,7 +10,7 @@ export const DashboardPage: React.FC = () => {
 
   const tabItems: ITabItem[] = [
     {
-      content: <>CV</>,
+      content: <CareerSection />,
       title: t(texts.dashboardPage.cv),
     },
     {

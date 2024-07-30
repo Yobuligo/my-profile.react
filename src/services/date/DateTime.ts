@@ -10,4 +10,14 @@ export class DateTime {
 
     return 0;
   }
+
+  static toDate(date: Date): string {
+    const [dateString] = date.toString().split("T");
+    return dateString;
+  }
+
+  static toTime(date: Date): string {
+    const [, timeString] = date.toString().split("T");
+    return timeString;
+  }
 }
