@@ -4,18 +4,12 @@
 .projectItem {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   row-gap: 1rem;
   padding: 1rem;
   &:hover {
     cursor: pointer;
   }
-}
-
-.header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0;
 }
 
 .image {
