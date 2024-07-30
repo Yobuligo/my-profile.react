@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { SearchIcon } from "../../icons/SearchIcon";
+import { Button } from "../button/Button";
 import { ISearchProps } from "./ISearchProps";
 import styles from "./Search.module.scss";
 
@@ -27,9 +28,9 @@ export const Search: React.FC<ISearchProps> = (props) => {
         type="text"
         value={query}
       />
-      <button>
-        <SearchIcon onClick={onSearch} />
-      </button>
+      <Button>
+        <SearchIcon className={styles.icon} onClick={onSearch} />
+      </Button>
     </div>
   );
 };
