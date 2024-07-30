@@ -1,6 +1,8 @@
 @import "../../../styles/mixins.scss";
 
 .projectDetails {
+  display: flex;
+  flex-direction: column;
 }
 
 .iconBack {

@@ -1,3 +1,4 @@
+import { PublicPage } from "../components/pages/publicPage/PublicPage";
 import { ITabItem } from "../components/tabStrip/ITabItem";
 import { TabStrip } from "../components/tabStrip/TabStrip";
 import { CareerSection } from "../features/career/CareerSection";
@@ -11,7 +12,7 @@ export const DashboardPage: React.FC = () => {
   const tabItems: ITabItem[] = [
     {
       content: <CareerSection />,
-      title: t(texts.dashboardPage.cv),
+      title: t(texts.dashboardPage.career),
     },
     {
       content: <ProjectSection />,
@@ -24,8 +25,8 @@ export const DashboardPage: React.FC = () => {
   ];
 
   return (
-    <>
+    <PublicPage>
       <TabStrip tabItems={tabItems} />
-    </>
+    </PublicPage>
   );
 };

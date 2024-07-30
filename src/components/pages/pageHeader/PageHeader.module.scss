@@ -1,7 +1,11 @@
 .pageHeader {
   display: flex;
   flex-direction: row;
-  justify-items: center;
+  justify-content: right;
   align-items: center;
-  height: 6rem;
+  height: 3rem;
+}
+
+.select {
+  margin-right: 1rem;
 }
