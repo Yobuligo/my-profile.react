@@ -1,9 +1,10 @@
 @import "../../../styles/dimensions.scss";
+@import "../../../styles/colors.module.scss";
 
 .projectItem {
   display: flex;
   flex-direction: column;
-  row-gap: $negative-space;
+  row-gap: 1rem;
   padding: 1rem;
   &:hover {
     cursor: pointer;
@@ -17,7 +18,7 @@
   margin: 0;
 }
 
-.image{
+.image {
   width: 5rem;
   height: 5rem;
 }
@@ -30,6 +31,37 @@
 .footer {
   display: flex;
   flex-direction: row;
-  justify-content: right;
+  justify-content: space-between;
+  column-gap: $negative-space;
+}
+
+.technologies {
+  display: flex;
+  flex-direction: column;
+  row-gap: $negative-space;
+}
+
+.technologiesHeader {
+  color: $color-primary-light;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: $negative-space;
+}
+
+.logo {
+  width: 2rem;
+  height: 2rem;
+}
+
+.date {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
   column-gap: $negative-space;
 }

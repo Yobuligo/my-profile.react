@@ -4,6 +4,9 @@
         "portfolio": "Portfolio",
         "projects": " Projects"
     },
+    "projectItem": {
+        "technologies": "Technologies"
+    },
     "projectList": {
         "noProjectsFound": "No suitable projects found"
     },

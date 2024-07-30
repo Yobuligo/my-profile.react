@@ -4,6 +4,7 @@
   color: $color-tab-unselected;
   font-size: large;
   font-weight: 600;
+  text-transform: uppercase;
   &:hover {
     cursor: pointer;
     color: $color-tab-selected;
