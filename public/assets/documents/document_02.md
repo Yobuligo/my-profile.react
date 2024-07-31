@@ -16,8 +16,8 @@ Turbo Pascal
 
 #### Images
 
-![bingo](/assets/images/bingo/bingo_01.png)
+![bingo](http://yobunet.de/profile/assets/images/bingo/bingo_01.png)
 
-![bingo](/assets/images/bingo/bingo_02.png)
+![bingo](http://yobunet.de/profile/assets/images/bingo/bingo_02.png)
 
-![bingo](/assets/images/bingo/bingo_03.png)
+![bingo](http://yobunet.de/profile/assets/images/bingo/bingo_03.png)

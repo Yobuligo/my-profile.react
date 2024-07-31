@@ -34,7 +34,11 @@ export const ProjectDetails: React.FC<IProjectDetailsProps> = (props) => {
       <ArrowBackIcon className={styles.iconBack} onClick={viewModel.onBack} />
       {isLoading && <Spinner />}
       {markdown && <Markdown className={styles.markdown}>{markdown}</Markdown>}
-      {markdown.length === 0 && <h4>{t(texts.projectDetails.noDocumentFound)}</h4>}
+      {markdown.length === 0 && (
+        <div className={styles.errorMessage}>
+          {t(texts.projectDetails.noDocumentFound)}
+        </div>
+      )}
     </div>
   );
 };

@@ -16,18 +16,18 @@ Turbo Pascal
 
 #### Images
 
-![cowboy](/assets/images/cowboy/cowboy_01.png)
+![cowboy](http://yobunet.de/profile/assets/images/cowboy/cowboy_01.png)
 
-![cowboy](/assets/images/cowboy/cowboy_02.png)
+![cowboy](http://yobunet.de/profile/assets/images/cowboy/cowboy_02.png)
 
-![cowboy](/assets/images/cowboy/cowboy_03.png)
+![cowboy](http://yobunet.de/profile/assets/images/cowboy/cowboy_03.png)
 
-![cowboy](/assets/images/cowboy/cowboy_04.png)
+![cowboy](http://yobunet.de/profile/assets/images/cowboy/cowboy_04.png)
 
-![cowboy](/assets/images/cowboy/cowboy_05.png)
+![cowboy](http://yobunet.de/profile/assets/images/cowboy/cowboy_05.png)
 
-![cowboy](/assets/images/cowboy/cowboy_06.png)
+![cowboy](http://yobunet.de/profile/assets/images/cowboy/cowboy_06.png)
 
-![cowboy](/assets/images/cowboy/cowboy_07.png)
+![cowboy](http://yobunet.de/profile/assets/images/cowboy/cowboy_07.png)
 
-![cowboy](/assets/images/cowboy/cowboy_08.png)
+![cowboy](http://yobunet.de/profile/assets/images/cowboy/cowboy_08.png)

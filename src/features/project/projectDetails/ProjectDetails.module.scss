@@ -1,5 +1,6 @@
 @import "../../../styles/mixins.scss";
 @import "../../../styles/colors.module.scss";
+@import "../../../styles/dimensions.scss";
 
 .projectDetails {
   display: flex;
@@ -20,4 +21,8 @@
   @include medium-screen {
     width: auto;
   }
+}
+
+.errorMessage {
+  margin-top: $negative-space;
 }
