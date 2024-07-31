@@ -5,6 +5,7 @@ import { Role } from "./Role";
 import { Technology } from "./Technology";
 
 export interface IProject extends IEntity {
+  customer: string;
   roles: Role[];
   summary: string;
   technologies: Technology[];

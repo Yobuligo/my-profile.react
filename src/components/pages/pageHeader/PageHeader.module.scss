@@ -1,11 +1,20 @@
+@import "../../../styles/dimensions.scss";
+
 .pageHeader {
   display: flex;
   flex-direction: row;
-  justify-content: right;
+  justify-content: space-between;
   align-items: center;
   height: 3rem;
 }
 
 .select {
   margin-right: 1rem;
+}
+
+.appLogo {
+  margin-left: 1rem;
+  margin-top: $negative-space;
+  width: 3rem;
+  height: auto;
 }

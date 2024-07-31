@@ -1,6 +1,7 @@
 [
   {
     "id": "1",
+    "customer": "Private",
     "roles": [
       "JUNIOR_DEVELOPER"
     ],
@@ -18,6 +19,7 @@
   },
   {
     "id": "2",
+    "customer": "Private",
     "roles": [
       "JUNIOR_DEVELOPER"
     ],
@@ -35,6 +37,7 @@
   },
   {
     "id": "3",
+    "customer": "Private",
     "roles": [
       "JUNIOR_DEVELOPER"
     ],
@@ -52,6 +55,7 @@
   },
   {
     "id": "4",
+    "customer": "Abiturienten",
     "roles": [
       "JUNIOR_DEVELOPER"
     ],
@@ -69,6 +73,7 @@
   },
   {
     "id": "5",
+    "customer": "Abiturienten",
     "roles": [
       "JUNIOR_DEVELOPER"
     ],
@@ -86,6 +91,7 @@
   },
   {
     "id": "6",
+    "customer": "Metalldesign & Poliershop Mellensee",
     "roles": [
       "JUNIOR_DEVELOPER"
     ],
@@ -104,6 +110,7 @@
   },
   {
     "id": "7",
+    "customer": "SNP Schneider Neureither & Partner SE",
     "roles": [
       "JUNIOR_DEVELOPER"
     ],
@@ -127,6 +134,7 @@
   },
   {
     "id": "8",
+    "customer": "SNP Schneider Neureither & Partner SE",
     "roles": [
       "DEVELOPER"
     ],
@@ -150,6 +158,7 @@
   },
   {
     "id": "9",
+    "customer": "SNP Schneider Neureither & Partner SE",
     "roles": [
       "SENIOR_DEVELOPER"
     ],
@@ -167,6 +176,7 @@
   },
   {
     "id": "10",
+    "customer": "SAP",
     "roles": [
       "SENIOR_DEVELOPER"
     ],
@@ -184,6 +194,7 @@
   },
   {
     "id": "11",
+    "customer": "SAP",
     "roles": [
       "SENIOR_DEVELOPER"
     ],
@@ -202,6 +213,7 @@
   },
   {
     "id": "12",
+    "customer": "SNP Schneider Neureither & Partner SE",
     "roles": [
       "SENIOR_DEVELOPER"
     ],
@@ -221,6 +233,7 @@
   },
   {
     "id": "13",
+    "customer": "SNP Schneider Neureither & Partner SE",
     "roles": [
       "SENIOR_DEVELOPER"
     ],
@@ -242,6 +255,7 @@
   },
   {
     "id": "14",
+    "customer": "SNP Schneider Neureither & Partner SE",
     "roles": [
       "SENIOR_DEVELOPER"
     ],
@@ -266,6 +280,7 @@
   },
   {
     "id": "15",
+    "customer": "SAP",
     "roles": [
       "SOFTWARE_ARCHITECT"
     ],
