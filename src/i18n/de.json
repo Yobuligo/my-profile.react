@@ -1,1 +1,23 @@
-{}
+{
+    "dashboardPage": {
+        "career": "Karriere",
+        "portfolio": "Portfolio",
+        "projects": " Projekte"
+    },
+    "projectDetails": {
+        "noDocumentFound": "Keine Dokumente gefunden"
+    },
+    "projectItem": {
+        "technologies": "Technologien"
+    },
+    "projectList": {
+        "noProjectsFound": "Keine passenden Projekte gefunden"
+    },
+    "role": {
+        "softwareArchitect": "Software Architect",
+        "leadDeveloper": "Lead Developer",
+        "seniorDeveloper": "Senior Developer",
+        "developer": "Developer",
+        "juniorDeveloper": "Junior Developer"
+    }
+}
