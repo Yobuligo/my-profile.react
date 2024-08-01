@@ -1,5 +1,5 @@
+import ReactPlayer from "react-player";
+
 export const CareerSection: React.FC = () => {
-  const date = new Date();
-  const json = date.toJSON();
-  return <>{json}</>;
+  return <ReactPlayer url="https://youtu.be/cz4I8xiQPlU" width={"100%"} />;
 };
