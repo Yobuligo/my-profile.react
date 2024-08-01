@@ -12,9 +12,5 @@ export const TabStrip: React.FC<ITabStripProps> = (props) => {
     />
   ));
 
-  return (
-    <div>
-      <header className={styles.header}>{items}</header>
-    </div>
-  );
+  return <header className={styles.header}>{items}</header>;
 };

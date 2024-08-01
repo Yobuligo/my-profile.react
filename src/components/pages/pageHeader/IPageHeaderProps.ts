@@ -1,3 +1,3 @@
 export interface IPageHeaderProps {
-  onClickAppLogo?: () => void;
+  onAppLogoClick?: () => void;
 }

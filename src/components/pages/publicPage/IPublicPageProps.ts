@@ -1,5 +1,5 @@
 import { IPageProps } from "../page/IPageProps";
 
 export interface IPublicPageProps extends IPageProps {
-  onClickAppLogo?: () => void;
+  onAppLogoClick?: () => void;
 }
