@@ -1,15 +1,11 @@
-import { useState } from "react";
 import { PublicPage } from "../components/pages/publicPage/PublicPage";
 import { Dashboard } from "../features/dashboard/Dashboard";
-import { ISignal } from "../services/signal/ISignal";
-import { Signal } from "../services/signal/Signal";
+import { useSignal } from "../hooks/useSignal";
 
 export const DashboardPage: React.FC = () => {
-  const [appLogoClickedSignal, setAppLogoClickedSignal] = useState<
-    ISignal | undefined
-  >(undefined);
+  const [appLogoClickedSignal, triggerAppLogoClickedSignal] = useSignal();
 
-  const onAppLogoClick = () => setAppLogoClickedSignal(new Signal());
+  const onAppLogoClick = () => triggerAppLogoClickedSignal();
 
   return (
     <PublicPage onAppLogoClick={onAppLogoClick}>
