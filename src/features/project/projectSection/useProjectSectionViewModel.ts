@@ -44,7 +44,9 @@ export const useProjectSectionViewModel = () => {
     onBack,
     onSearch,
     onSelectProject,
+    query,
     projects,
     selectedProject,
+    setQuery,
   };
 };

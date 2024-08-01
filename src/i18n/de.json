@@ -22,5 +22,8 @@
         "seniorDeveloper": "Senior Developer",
         "developer": "Developer",
         "juniorDeveloper": "Junior Developer"
+    },
+    "search": {
+        "placeholder": "Suchbegriff"
     }
 }

@@ -19,7 +19,7 @@ export const ProjectSection: React.FC = () => {
       ) : (
         <div className={styles.projectList}>
           <div className={styles.search}>
-            <Search onSearch={viewModel.onSearch} />
+            <Search onSearch={viewModel.onSearch} query={viewModel.query} />
           </div>
           <ProjectList
             projects={viewModel.filterProjects()}
