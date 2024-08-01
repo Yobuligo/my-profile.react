@@ -1,5 +1,4 @@
 @import "../../styles/colors.module.scss";
-@import "../../styles/mixins.scss";
 
 .header {
   display: flex;
@@ -10,12 +9,4 @@
   background-color: $color-primary;
   height: 4rem;
   margin-top: 0.1rem;
-}
-
-.body {
-  padding: 1rem;
-
-  @include medium-screen {
-    padding: 2rem;
-  }
 }
