@@ -1,1 +1,3 @@
-export interface IPageHeaderProps {}
+export interface IPageHeaderProps {
+  onClickAppLogo?: () => void;
+}

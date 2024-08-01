@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { PublicPage } from "../components/pages/publicPage/PublicPage";
 import { ITabItem } from "../components/tabStrip/ITabItem";
 import { TabStrip } from "../components/tabStrip/TabStrip";
