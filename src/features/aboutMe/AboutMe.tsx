@@ -1,3 +1,7 @@
+import { texts } from "../../hooks/useTranslation/texts";
+import { useTranslation } from "../../hooks/useTranslation/useTranslation";
+
 export const AboutMe: React.FC = () => {
-  return <>My name is Peter Hoffmann</>;
+  const { t } = useTranslation();
+  return <>{t(texts.aboutMe.welcome)}</>;
 };

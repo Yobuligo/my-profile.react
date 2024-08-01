@@ -1,5 +1,8 @@
 {
-    "dashboardPage": {
+    "aboutMe": {
+        "welcome": "Welcome my name is Peter Hoffmann"
+    },
+    "dashboard": {
         "career": "Career",
         "portfolio": "Portfolio",
         "projects": " Projects"
