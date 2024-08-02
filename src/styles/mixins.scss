@@ -1,4 +1,5 @@
 @import "./colors.module.scss";
+@import "./dimensions.scss";
 
 @mixin medium-screen {
   @media (min-width: 28rem) {
@@ -9,6 +10,30 @@
 @mixin large-screen {
   @media (min-width: 64rem) {
     @content;
+  }
+}
+
+@mixin border-padding-left {
+  padding-left: $border-padding-small;
+
+  @include medium-screen {
+    padding-left: $border-padding-medium;
+  }
+}
+
+@mixin border-padding-right {
+  padding-right: $border-padding-small;
+
+  @include medium-screen {
+    padding-right: $border-padding-medium;
+  }
+}
+
+@mixin border-padding {
+  padding: $border-padding-small;
+
+  @include medium-screen() {
+    padding: $border-padding-medium;
   }
 }
 
