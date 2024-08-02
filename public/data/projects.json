@@ -19,7 +19,7 @@
   },
   {
     "id": "2",
-    "customer": "Private",
+    "customer": "School",
     "roles": [
       "JUNIOR_DEVELOPER"
     ],
@@ -46,8 +46,8 @@
       "TURBO_PASCAL"
     ],
     "timeInterval": {
-      "from": "2000-07-30T08:07:50.031Z",
-      "to": "2000-07-30T08:07:50.031Z"
+      "from": "2000-08-30T08:07:50.031Z",
+      "to": "2000-08-30T08:07:50.031Z"
     },
     "title": "Farmer",
     "summary": "Successor to the game Cowboy. Economic game in which as much money as possible had to be earned within 60 rounds",
@@ -64,8 +64,8 @@
       "TURBO_PASCAL"
     ],
     "timeInterval": {
-      "from": "2000-07-30T08:07:50.031Z",
-      "to": "2000-07-30T08:07:50.031Z"
+      "from": "2000-09-30T08:07:50.031Z",
+      "to": "2000-09-30T08:07:50.031Z"
     },
     "title": "Labyrinth",
     "summary": "Pacman-like quiz game with its own level editor, a help feature, 200 manually entered questions from a Mickey Mouse quiz",
@@ -73,7 +73,7 @@
   },
   {
     "id": "5",
-    "customer": "Abiturienten",
+    "customer": "Private",
     "roles": [
       "JUNIOR_DEVELOPER"
     ],
@@ -167,8 +167,8 @@
       "ABAP_REFLECTION"
     ],
     "timeInterval": {
-      "from": "2015-07-30T08:07:50.031Z",
-      "to": "2015-07-30T08:07:50.031Z"
+      "from": "2015-01-30T08:07:50.031Z",
+      "to": "2015-01-30T08:07:50.031Z"
     },
     "title": "Unittest Generator",
     "summary": "Implementation of a unit test generator to enhance code quality in projects.",
@@ -185,8 +185,8 @@
       "ABAP_REFLECTION"
     ],
     "timeInterval": {
-      "from": "2015-07-30T08:07:50.031Z",
-      "to": "2015-07-30T08:07:50.031Z"
+      "from": "2015-02-30T08:07:50.031Z",
+      "to": "2015-02-30T08:07:50.031Z"
     },
     "title": "Meta API (Reflection)",
     "summary": "Implementation of a reflection API for centralized access to language-specific constructs in ABAP.",
@@ -204,8 +204,8 @@
       "HTML"
     ],
     "timeInterval": {
-      "from": "2015-07-30T08:07:50.031Z",
-      "to": "2015-07-30T08:07:50.031Z"
+      "from": "2015-03-30T08:07:50.031Z",
+      "to": "2015-03-30T08:07:50.031Z"
     },
     "title": "Code Documentation Generator",
     "summary": "Implementation of a generator for creating code documentation based on a development project to improve onboarding for new developers.",
@@ -224,8 +224,8 @@
       "SAP_DYNPRO"
     ],
     "timeInterval": {
-      "from": "2016-07-30T08:07:50.031Z",
-      "to": "2017-07-30T08:07:50.031Z"
+      "from": "2016-01-30T08:07:50.031Z",
+      "to": "2017-01-30T08:07:50.031Z"
     },
     "title": "Short dump API",
     "summary": "Implementation of a remote API for reading, transferring, and displaying SAP short dumps.",
@@ -246,8 +246,8 @@
       "SAP_JOBS"
     ],
     "timeInterval": {
-      "from": "2016-07-30T08:07:50.031Z",
-      "to": "2017-07-30T08:07:50.031Z"
+      "from": "2016-02-30T08:07:50.031Z",
+      "to": "2017-02-30T08:07:50.031Z"
     },
     "title": "Parallelized Work Package Processor API",
     "summary": "Implementation of a remote API for parallelized processing of work packages based on SAP jobs.",
@@ -271,8 +271,8 @@
       "OPEN_SQL"
     ],
     "timeInterval": {
-      "from": "2016-07-30T08:07:50.031Z",
-      "to": "2017-07-30T08:07:50.031Z"
+      "from": "2016-03-30T08:07:50.031Z",
+      "to": "2017-03-30T08:07:50.031Z"
     },
     "title": "Near Zero Downtime",
     "summary": "Implementation of a database change logging system based on DB triggers to minimize system downtime to nearly zero after a migration.",
