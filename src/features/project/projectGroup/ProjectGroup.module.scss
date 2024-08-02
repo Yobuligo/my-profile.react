@@ -1,0 +1,13 @@
+@import "../../../styles/dimensions.scss";
+@import "../../../styles/colors.module.scss";
+
+.projectGroup {
+  display: flex;
+  flex-direction: column;
+  row-gap: $negative-space;
+}
+
+.title {
+  margin: 0;
+  color: $color-secondary;
+}

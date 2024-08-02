@@ -1,12 +1,23 @@
 import { Search } from "../../../components/search/Search";
 import { Spinner } from "../../../components/spinner/Spinner";
 import { ProjectDetails } from "../projectDetails/ProjectDetails";
-import { ProjectList } from "../projectList/ProjectList";
-import { useProjectSectionViewModel } from "./useProjectSectionViewModel";
+import { ProjectGroup } from "../projectGroup/ProjectGroup";
 import styles from "./ProjectSection.module.scss";
+import { useProjectSectionViewModel } from "./useProjectSectionViewModel";
 
 export const ProjectSection: React.FC = () => {
   const viewModel = useProjectSectionViewModel();
+
+  const getProjectGroupsItems = () =>
+    viewModel
+      .getProjectGroups()
+      .map((projectGroup) => (
+        <ProjectGroup
+          key={projectGroup.title}
+          projectGroup={projectGroup}
+          onSelect={viewModel.onSelectProject}
+        />
+      ));
 
   return (
     <>
@@ -21,10 +32,7 @@ export const ProjectSection: React.FC = () => {
           <div className={styles.search}>
             <Search onSearch={viewModel.onSearch} query={viewModel.query} />
           </div>
-          <ProjectList
-            projects={viewModel.filterProjects()}
-            onSelect={viewModel.onSelectProject}
-          />
+          <div className={styles.projectGroup}>{getProjectGroupsItems()}</div>
         </div>
       )}
     </>

@@ -4,6 +4,9 @@ import { IEntity } from "./IEntity";
 import { Role } from "./Role";
 import { Technology } from "./Technology";
 
+/**
+ * An implementation of this interface represents any kind of project
+ */
 export interface IProject extends IEntity {
   customer: string;
   roles: Role[];
